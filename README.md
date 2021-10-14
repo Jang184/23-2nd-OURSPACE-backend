@@ -69,7 +69,7 @@
 - Django Boto3 - AWS S3 활용 Image Hosting 🙌
 - 이미지 업로드, 삭제 등 범용성을 위한 S3Client Class 작성
 - 공간 등록 API에서 날짜와 가격옵션을 활용한 유효성 검사 실시 🙌
-- Transaction을 적용해 오류 발생 시 Rollback 실 🙌
+- Transaction을 적용해 오류 발생 시 Rollback 실시 🙌
 
 ### Orders
 

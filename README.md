@@ -59,30 +59,31 @@
 
 ### Users
 
-- 카카오 API를 이용한 소셜 로그인 기능 구현
-- 로그인 이력 존재하지 않을 시 회원가입 진행
+- 카카오 API를 이용한 소셜 로그인 기능 구현 🙌
+- 로그인 이력 존재하지 않을 시 회원가입 진행 🙌
 
 ### Spaces
 
-- Query parameter를 활용한 Space 필터링(공간유형, 지역, 날짜 등) 🙌
-- 검색 기능 구현 및 키워드로 조건을 받아 정렬 기능 구현 🙌
-- Django Boto3 - AWS S3 활용 Image Hosting 
-- 이미지 업로드, 삭제 등 범용성을 위한 S3Client Class 작성 🙌
-- 공간 등록 API에서 날짜와 가격옵션을 활용한 유효성 검사 실시
-- Transaction을 적용해 오류 발생 시 Rollback 실행 🙌
+- Query parameter를 활용한 Space 필터링(공간유형, 지역, 날짜 등)
+- 검색 기능 구현 및 키워드로 조건을 받아 정렬 기능 구현
+- Django Boto3 - AWS S3 활용 Image Hosting 🙌
+- 이미지 업로드, 삭제 등 범용성을 위한 S3Client Class 작성
+- 공간 등록 API에서 날짜와 가격옵션을 활용한 유효성 검사 실시 🙌
+- Transaction을 적용해 오류 발생 시 Rollback 실 🙌
 
-### Orders 🙌
+### Orders
 
 - Orderstatus를 ENUM으로 표현하여 Order Flow 시각화
 - User가 입력한 정보를 바탕으로 Space 예약 진행
 - Payload에 담긴 User 정보로 예약 내역 조회 기능 구현
-- 예약 날짜가 초과된 내역에 대해 True를 반환
+- 예약 날짜가 초과된 내역에 대해 True를 반환 🙌
+- Mypage에서 예약 확인 🙌
 
-### ETC 🙌
+### ETC
 
-- 구현 Logic의 신뢰성을 확인하기 위해 모든 API에 대해 Unit Test 작성
-- Eager Loading 개념을 이해하고 Query Debugger를 활용해 API Query의 수를 100개에서 3개로 감소
-- AWS EC2 Instance에서 Docker Container를 띄워 서버 배포
+- 구현 Logic의 신뢰성을 확인하기 위해 모든 API에 대해 Unit Test 작성 🙌
+- Eager Loading 개념을 이해하고 Query Debugger를 활용해 API Query의 수를 100개에서 3개로 감소 🙌
+- AWS EC2 Instance에서 Docker Container를 띄워 서버 배포 🙌
 
 ## 커뮤니케이션
 
